@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(244, 48%, 59%);
+    margin: 20;
+    padding: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fcf4f4;
+    padding: 100px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather {
+    margin-bottom: 50px;
+}
+
+.weather-info {
+    margin-top: 50px;
+}
+
+h1, h2 {
+    color: #640707;
+    cursor: pointer;
+}
+
+#temperature {
+    font-weight: bold;
+}
+
